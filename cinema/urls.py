@@ -26,7 +26,7 @@ urlpatterns = [
                 "post": "create",
             }
         ),
-        name="cinema_halls-list"
+        name="cinemahalls-list"
     ),
     path(
         "cinema_halls/<int:pk>/",
@@ -38,7 +38,7 @@ urlpatterns = [
                 "delete": "destroy",
             }
         ),
-        name="cinema_halls-detail"
+        name="cinemahalls-detail"
     ),
     path("", include(router.urls))
 ]
